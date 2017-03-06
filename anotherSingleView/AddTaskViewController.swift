@@ -5,6 +5,7 @@
 //  Created by Reza on 2017-03-02.
 //  Copyright © 2017 Reza. All rights reserved.
 //
+//  Task Screen controller
 
 import UIKit
 
@@ -23,7 +24,7 @@ class AddTaskViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    
+    //button pressed in Task Edit screen
     @IBAction func btnPressed(_ sender: Any) {
         
         let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
